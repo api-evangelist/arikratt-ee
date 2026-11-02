@@ -1,4 +1,4 @@
-# arikratt-ee
+# Ärikratt
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-arikratt-ee is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://arikratt.ee/
+Ärikratt is a free, anonymous explorer of public Estonian company data, offering sector, regional, grant and procurement information. It presents only public company‑level data, each figure with unit, period and source, and never substitutes missing values with zero. Users can browse without an account; optional accounts provide free MCP keys. The service aggregates data from official registers, ensuring up‑to‑date facts for companies, sectors, regions, grants and public procurement.
+
+**Areas:** Company · Estonia · Business · Data · API
+
+## Ärikratt on APIs.io
+
+Everything profiled for Ärikratt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arikratt-ee/](https://apis.io/providers/arikratt-ee/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ärikratt MCP](https://apis.io/apis/arikratt-ee/rikratt-mcp/) — Free MCP API providing access to Estonian company data via authenticated calls.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Ärikratt](https://apis.io/schemas/arikratt-ee/arikratt-ee-mcp/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Arikratt Ee Domain Security](https://apis.io/security/arikratt-ee/arikratt-ee-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://arikratt.ee/)
+- [Documentation](https://arikratt.ee/en/info)
+- [Getting started](https://arikratt.ee/en/info)
+- [API reference](https://arikratt.ee/.well-known/api-catalog)
+- [Support](https://arikratt.ee/et/support)
+- [Privacy policy](https://arikratt.ee/et/privacy)
+
+## API Evangelist rating
+
+**Kin Score 18.3** — emerging · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 10.5 |
+
+**Agent readiness 24.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arikratt-ee/](https://apis.io/providers/arikratt-ee/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ärikratt: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arikratt-ee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
